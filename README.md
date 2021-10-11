@@ -1,5 +1,5 @@
 # HtmlFieldExtension for QlikSense
-Object to draw html in QlikSense object. There several extensions like this, but some of them use Angular methods, some of them doesn't have bootstap styles and fontawesome. Additionally, when using Capability API some exntension have problems...
+Object to draw html in QlikSense object. There several extensions like this, but some of them use Angular methods, some of them doesn't have bootstap styles and fontawesome. Additionally, when using Capability API some extensions have problems...
 
 ![](screenshot.PNG)
 
