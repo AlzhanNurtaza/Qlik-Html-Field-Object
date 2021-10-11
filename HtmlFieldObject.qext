@@ -1,0 +1,16 @@
+{
+	"name": "HtmlFieldObject",
+	"description": "Qlik Sense extension to display html",
+	"type": "visualization",
+	"version": "1.0.0",
+	"icon": "extension",
+	"preview" :"preview.png",
+	"author": "Alzhan Nurtaza",
+	"homepage": "",
+	"keywords": "qlik-sense, visualization, template",
+	"license": "MIT License",
+	"repository": "",
+	"dependencies": {
+		"qlik-sense": ">=3.0.x"
+	}
+}
