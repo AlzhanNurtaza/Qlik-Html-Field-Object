@@ -14,6 +14,10 @@
     font-family: 'Roboto', sans-serif;
     @import "./style.scss";
 
+    .qs-content{
+        padding: 10px;
+    }
+
 }
 
 @import "./../bower_components/font-awesome/scss/fontawesome";
