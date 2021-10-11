@@ -4,13 +4,11 @@ define([
     "css!./css/root.css",
     "./initialproperties",
     "./properties",
-    "text!./template.html",
     "./js/bootstrap/bootstrap.bundle.min",
 ],
     function ($, qlik, css, initprops, propfile, template, bootjs) {
         "use strict";
         return {
-            template: template,
             initialProperties: initprops,
             definition: propfile,
             support: {
@@ -36,9 +34,8 @@ define([
 
                 $('#' + id).css('overflow', 'auto');
 
-                $(idCss + ' > .qs-html-field-object > .qs-content').html(layout.html);
-
-
+                var html = '<div class="qs-html-field-object"><div class="row qs-content">'+layout.html+'</div></div>';
+                $element.html(html);
 
 
                 return qlik.Promise.resolve();
