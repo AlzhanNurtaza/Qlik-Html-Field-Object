@@ -34,6 +34,8 @@ define([
                 var idCss = '#' + id;
                 $element.attr("id", id);
 
+                $('#' + id).css('overflow', 'auto');
+
                 $(idCss + ' > .qs-html-field-object > .qs-content').html(layout.html);
 
 
