@@ -34,7 +34,11 @@ define([
 
                 $('#' + id).css('overflow', 'auto');
 
-                var html = '<div class="qs-html-field-object"><div class="row qs-content">'+layout.html+'</div></div>';
+                var html = '<div class="qs-html-field-object container">' +
+                                '<div class="row qs-content">'+
+                                    '<div class="col">'+layout.html+'</div>'
+                                '</div>';
+                            '</div>';
                 $element.html(html);
 
 
